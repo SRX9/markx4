@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+body{
+   font-family: 'Exo 2';
+}
+.foot{
+   position:absolute;
+   bottom:0;
+
+}
+.log{
+   width: 100%
+}
+.aaa{
+   float:right;
+}
+
+.med{
+   position: absolute;
+}
+.q11::-webkit-scrollbar { width: 0 !important }
+.q11 { overflow: -moz-scrollbars-none; }
+.q11 { -ms-overflow-style: none; }
+.q11{
+
+    width:100%;
+    height: 100%;
+    position:absolute;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    flex: 1;
+    overflow: auto;
+    display: flex;
+ }
+

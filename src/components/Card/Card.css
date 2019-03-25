@@ -1,0 +1,45 @@
+.all{
+  transition-duration: 2s;
+  transform-origin: 100%;
+}
+
+.pillr {
+    background-image: linear-gradient(to right,#747373,#000000);
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px 50px 5px 50px;
+}
+
+.ts{
+  padding: 3px;
+  font-size: 10px;
+}
+.t{
+  padding: 3px;
+  font-size: 10px;
+}
+
+.pills {
+  background-image: linear-gradient(to left,#7a7a7a,#ffffff);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px 50px 50px 50px;
+  
+
+}
+.pill1{
+  background-image: linear-gradient(to left,#000000,#ffffff);
+  border: none;
+  color:white;
+  padding: 1px;
+  width: 450px;
+  text-align: center;
+  text-decoration: none;
+border-radius: 100px 100px 100px 100px; 
+}
