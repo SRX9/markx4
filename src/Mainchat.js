@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "tachyons";
 import axios from "axios";
 import './App.css';
-
+import { Affix} from 'antd';
 //Components
 import Chatlog from './components/Chat/Chatlog';
 import Send from './components/Send/Send';
@@ -93,6 +93,7 @@ class Mainchat extends Component {
         }
 
     }
+
     //Send Component Helper Methods
     oninputChange = (event) => {
         if (event.target.value === "") 
@@ -101,6 +102,7 @@ class Mainchat extends Component {
         }
         this.setState({ input: event.target.value, val: event.target.value, chan: true });
     }
+
     //On Sending Message Handler
     onSubmit = () => {
 
@@ -144,16 +146,10 @@ class Mainchat extends Component {
         return (
             
             <div className="">
-                <div className="w-100 ">
-                        <div>
-                            {/* All Chat And Other Stuff Printing Component */}
-                            <Chatlog className="med " cuser={this.state.cuser} msgarr={this.state.msgarr} />
-                        </div>
-                        <div className="pt3">
-                            {/* Message Input And Send Component */}
-                            <Send className="center" val={this.state.val} oninputChange={this.oninputChange} onSubmit={this.onSubmit} />
-                        </div>
-                </div>
+              <Chatlog className="med " cuser={this.state.cuser} msgarr={this.state.msgarr} />
+              <Affix offsetTop={10}>
+                <Send className="center" val={this.state.val} oninputChange={this.oninputChange} onSubmit={this.onSubmit} />
+              </Affix>
             </div>
         );
     }

@@ -8,11 +8,9 @@ const Send =({oninputChange,onSubmit,val})=>
               <div className=" tc pa2  ">
                 <form>
                   <input
-
                     className=" pill f4 pa2 w-40"
                     type="textarea"
                     onChange={oninputChange}
-
                   />
                   <input type="reset" className="pill f4 pa2   grow" onClick={onSubmit} value="Send" />
                 </form>

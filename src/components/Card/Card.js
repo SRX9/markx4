@@ -7,7 +7,7 @@ const Card=(props)=>
                 return (
                         <div className="center pa2 all">
                                 <div className="pill1">
-                                        <p className="center"><b>{props.msgob.user}</b> joined.</p>
+                                  <p className="center"><b>{props.msgob.user}</b> joined.</p>
                                 </div>
                         </div>);
         }

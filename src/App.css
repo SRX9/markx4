@@ -8,14 +8,15 @@ body{
 
 }
 .log{
-   width: 100%
+   width: 100vw;
 }
 .aaa{
    float:right;
 }
 
 .med{
-   position: absolute;
+   width: 100vw;
+   height:90vh;
 }
 .q11::-webkit-scrollbar { width: 0 !important }
 .q11 { overflow: -moz-scrollbars-none; }

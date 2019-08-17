@@ -4,10 +4,11 @@
 }
 
 .pillr {
-    background-image: linear-gradient(to right,#747373,#000000);
+    background-image: linear-gradient(to right,#000000,#000000);
   border: none;
   color: white;
   padding: 10px;
+  max-width: 90vw;
   text-align: center;
   text-decoration: none;
   border-radius: 50px 50px 5px 50px;
@@ -23,10 +24,11 @@
 }
 
 .pills {
-  background-image: linear-gradient(to left,#7a7a7a,#ffffff);
+  background-image: linear-gradient(to left,#ffffff,#ffffff);
   border: none;
   color: rgb(0, 0, 0);
   padding: 10px;
+  max-width: 90vw;
   text-align: center;
   text-decoration: none;
   border-radius: 5px 50px 50px 50px;
@@ -34,11 +36,11 @@
 
 }
 .pill1{
-  background-image: linear-gradient(to left,#000000,#ffffff);
+  background-image: linear-gradient(to left,#818181,#ffffff);
   border: none;
-  color:white;
+  color:rgb(19, 19, 19);
   padding: 1px;
-  width: 450px;
+  width: 40vw;
   text-align: center;
   text-decoration: none;
 border-radius: 100px 100px 100px 100px; 
